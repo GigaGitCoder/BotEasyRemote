@@ -62,7 +62,7 @@ def open_author_github():
     webbrowser.open(f"https://github.com/{username}") 
 
 def open_repository_github():
-    webbrowser.open(f"https://github.com/{repository}")  
+    webbrowser.open(f"https://github.com/{username}/{repository}")  
 
 def open_cat_link(event):
     webbrowser.open(f"https://donationalerts.com/r/{donateun}")
