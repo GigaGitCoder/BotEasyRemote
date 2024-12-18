@@ -4,9 +4,9 @@
 
 # Getting started 
 
-* <h3>Move ___BER_Content folder___ and ___bot.py___ in your main bot's folder</h3>
+* __Move BER_Content folder and bot.py in your main bot's folder__
 
-* <h3>In __BER__ you'll need next modules:</h3>
+* __In BER you'll need next modules:__ <br><br>
 Just use ```$ pip install``` for every module
 
 ```
@@ -22,27 +22,27 @@ from colorama import Fore
 import subprocess
 ```
 
-* <h3>Replace ___bot's filename___ in 20 line!</h3>
+* __Replace bot's filename in 20 line!__
 ```
 bot_main = "YOUR FILENAME"
 ```
 
-* You can use it now!
+* __You can use it now!__
 ```
 $ python remote.py
 ```
 
 # Functions
 
-* <h3>Start bot</h3>
+* __Start bot__
 
 If you click on the first button, you will launch your bot. _(make sure that you have changed the bot's file name to your own)_
 
-* <h3>Restart bot</h3>
+* __Restart bot__
 
 This is a convenient feature that allows you to quickly restart your bot after changes to its code. Second button restarts the bot
 
-* <h3>Off bot</h3>
+* __Off bot__
   
 Third button turns off the bot
 
