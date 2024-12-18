@@ -48,4 +48,6 @@ Third button turns off the bot
 
 # Credits
 
-* <h3>Made by Egorka :3</h3>
+[Bot Easy Remote | Demonstration (Rutube)](https://rutube.ru/video/private/fcb37c1ba2949daa0f0891e1da656ac4/?p=twEh1lr7Pkeq9IkbqNQzNw)
+
+Made by Egorka :3
