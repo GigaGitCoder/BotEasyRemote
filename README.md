@@ -1,5 +1,5 @@
 <picture>
- <img alt="Bot Easy Remote" src="https://i.imgur.com/f6BXOIw.png">
+ <img alt="Bot Easy Remote" src="BER_Content/BER_Logo.png">
 </picture>
 
 # Getting started 
