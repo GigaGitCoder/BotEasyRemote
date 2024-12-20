@@ -1,6 +1,9 @@
 @echo off
 setlocal
 
+rem Устанавливаем заголовок консольного окна
+title Logs
+
 rem Указываем путь к файлу lang_var.txt
 set "langFile=.\Body\lang_var.txt"
 

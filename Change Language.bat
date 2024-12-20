@@ -1,6 +1,3 @@
 @echo off
-setlocal
 
-    python .\Body\ChangeLang.py
-
-endlocal
+start /B pythonw .\Body\ChangeLang.py

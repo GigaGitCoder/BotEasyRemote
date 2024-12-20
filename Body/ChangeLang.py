@@ -6,7 +6,7 @@ import os
 Project_Path = os.path.dirname(__file__)
 
 def lang_var():
-    return open("lang_var.txt", 'r', encoding='utf-8').read() 
+    return open(f"{Project_Path}\lang_var.txt", 'r', encoding='utf-8').read() 
 
 def start_bot():
     if language_var.get() == "ru":
@@ -34,14 +34,14 @@ def change_language():
         root.title("Выбор языка BER")
         radio_ru.config(bg="#5B009E", fg="white")
         radio_en.config(bg="#380061", fg="white")
-        open("lang_var.txt", 'w', encoding='utf-8').write("ru")
+        open(f"{Project_Path}\lang_var.txt", 'w', encoding='utf-8').write("ru")
         
     elif language_var.get() == "en":
         start_button.config(text="Save your choice")
         root.title("Language select BER")
         radio_en.config(bg="#5B009E", fg="white")
         radio_ru.config(bg="#380061", fg="white")
-        open("lang_var.txt", 'w', encoding='utf-8').write("en")
+        open(f"{Project_Path}\lang_var.txt", 'w', encoding='utf-8').write("en")
 
 
 # Создание основного окна
