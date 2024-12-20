@@ -1,53 +1,67 @@
-<picture>
- <img alt="Bot Easy Remote" src="BER_Content/BER_Logo.png">
-</picture>
+# Bot Easy Remote
 
-# Getting started 
+Bot Easy Remote - это приложение, разработанное на Python, которое позволяет пользователям управлять ботами через графический интерфейс. Приложение поддерживает выбор языка интерфейса (русский и английский) и предоставляет возможность запускать, перезапускать и останавливать ботов, а также выбирать файлы ботов для выполнения.
 
-* __Move BER_Content folder and bot.py in your main bot's folder__
+## Содержание
 
-* __In BER you'll need next modules:__ <br><br>
-Just use ```$ pip install``` for every module
+- [Функции](#функции)
+- [Установка](#установка)
+- [Использование](#использование)
+- [Поддержка](#поддержка)
+- [Лицензия](#лицензия)
 
-```
-import tkinter as tk
-import webbrowser
-import pystray
-from PIL import Image, ImageTk
-from pystray import MenuItem, Icon
-import threading
-import os
-import time
-from colorama import Fore
-import subprocess
-```
+## Функции
 
-* __Replace bot's filename in 20 line!__
-```
-bot_main = "YOUR FILENAME"
-```
+- Выбор языка интерфейса (русский и английский).
+- Запуск, перезапуск и остановка ботов.
+- Выбор файла бота для выполнения.
+- Системный трей для быстрого доступа к приложению.
+- Логирование действий в консоль.
 
-* __You can use it now!__
-```
-$ python remote.py
-```
+## Установка
 
-# Functions
+1. Убедитесь, что у вас установлен Python 3.6 или выше. Вы можете скачать его с [официального сайта Python](https://www.python.org/downloads/).
+2. Клонируйте репозиторий на свой компьютер:
 
-* __Start bot__
+   ```bash
+   git clone https://github.com/GigaGitCoder/BotEasyRemote.git
+   ```
 
-If you click on the first button, you will launch your bot. _(make sure that you have changed the bot's file name to your own)_
+3. Перейдите в директорию проекта:
 
-* __Restart bot__
+   ```bash
+   cd BotEasyRemote
+   ```
 
-This is a convenient feature that allows you to quickly restart your bot after changes to its code. Second button restarts the bot
+4. Установите необходимые зависимости:
 
-* __Off bot__
-  
-Third button turns off the bot
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-# Credits
+## Использование
 
-[Bot Easy Remote | Demonstration (Rutube)](https://rutube.ru/video/private/fcb37c1ba2949daa0f0891e1da656ac4/?p=twEh1lr7Pkeq9IkbqNQzNw)
+1. Запустите приложение, используя файл `Start.bat`:
 
-Made by Egorka :3
+   ```bash
+   Start.bat
+   ```
+
+2. Выберите язык интерфейса, используя файл `Change Language.bat`:
+
+   ```bash
+   Change Language.bat
+   ```
+   
+4. Укажите путь к файлу бота, который вы хотите запустить, и нажмите кнопку "Запустить бота".
+5. Используйте кнопки для перезапуска или остановки бота по мере необходимости.
+
+## Поддержка
+
+Если у вас возникли вопросы или проблемы, вы можете задать их через Telegram: [@IgorXmel](https://t.me/IgorXmel). <br>
+<br>
+Поддержать проект можно через [Donation Alerts](https://www.donationalerts.com/r/ava_channel_live) или нажав на котика в приложении.
+
+## Лицензия
+
+Этот проект лицензирован под MIT License. Пожалуйста, ознакомьтесь с файлом [LICENSE](LICENSE) для получения дополнительной информации.
