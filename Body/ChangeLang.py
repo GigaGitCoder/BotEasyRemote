@@ -1,6 +1,5 @@
 import tkinter as tk
 import sys
-import subprocess
 import os
 
 Project_Path = os.path.dirname(__file__)
