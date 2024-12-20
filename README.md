@@ -2,6 +2,16 @@
 
 Bot Easy Remote is an application developed in Python that allows users to manage bots through a graphical interface. The application supports language selection (Russian and English) and provides the ability to start, restart, and stop bots, as well as select bot files for execution.
 
+## Documentations
+
+- [Русский](/Body/README_files/README_RU.md)  
+- [Deutsch](/Body/README_files/README_DE.md)  
+- [Español](/Body/README_files/README_ES.md) 
+- [Français](/Body/README_files/README_FR.md)
+- [Português](/Body/README_files/README_PT.md)
+- [中文](/Body/README_files/README_CN.md)  
+- [日本語](/Body/README_files/README_JP.md)  
+
 ## Contents
 
 - [Features](#features)
