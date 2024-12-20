@@ -2,6 +2,8 @@
 
 Bot Easy Remoteは、ユーザーがグラフィカルユーザーインターフェースを介してボットを管理できるように設計されたPythonで開発されたアプリケーションです。このアプリケーションは、インターフェースの言語選択（ロシア語と英語）をサポートし、ボットの起動、再起動、停止、および実行するボットファイルの選択を行うことができます。
 
+![Release](https://img.shields.io/github/v/release/GigaGitCoder/BotEasyRemote) ![Downloads](https://img.shields.io/github/downloads/GigaGitCoder/BotEasyRemote/total)
+
 ## 目次
 
 - [機能](#機能)
