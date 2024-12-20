@@ -1,3 +1,4 @@
 Pillow
 pystray
 colorama
+pywin32
