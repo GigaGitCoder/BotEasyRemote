@@ -38,7 +38,7 @@ def refresh_code_repair():
 
 # Путь к файлу бота
 def bot_main():
-    return open(f"{Project_Path}\path.txt", 'r', encoding='utf-8').read() 
+    return open(rf"{Project_Path}\path.txt", 'r', encoding='utf-8').read() 
 
 # Функция для выбора файла
 def select_file():
@@ -50,7 +50,7 @@ def select_file():
 # Функция для передачи пути в другой файл
 def send_path():
     bot_path = entry_bot_path.get()
-    open(f"{Project_Path}\path.txt", 'w', encoding='utf-8').write(bot_path)  # Записываем путь в файл
+    open(rf"{Project_Path}\path.txt", 'w', encoding='utf-8').write(bot_path)  # Записываем путь в файл
     print(f"\n\nПуть к файлу бота теперь такой: {bot_path}\nПерезаписан в файл path.txt\n")
     # Здесь вы можете добавить код для передачи пути в другой файл
 
@@ -202,7 +202,7 @@ def update_button_states():
 def create_tray_icon():
     global tray_icon
     # Загрузка иконки из файла
-    icon_path = os.path.join(os.path.dirname (__file__), f'{Project_Path}\BER_Content\icon.png')  
+    icon_path = os.path.join(os.path.dirname (__file__), rf'{Project_Path}\BER_Content\icon.png')  
     image = Image.open(icon_path)
     tray_icon = Icon("test_icon", image, "Bot Easy Remote", menu=pystray.Menu(
         MenuItem("Поддержать", open_cat_link),
@@ -227,7 +227,7 @@ root.configure(bg="#4B0082")  # Темно-фиолетовый фон
 
 
 # Установка иконки для окна
-icon_path = os.path.join(os.path.dirname(__file__), f'{Project_Path}\BER_Content\icon.png')  # Путь к иконке
+icon_path = os.path.join(os.path.dirname(__file__), rf'{Project_Path}\BER_Content\icon.png')  # Путь к иконке
 icon_image = Image.open(icon_path)
 icon_photo = ImageTk.PhotoImage(icon_image)
 root.iconphoto(False, icon_photo)
@@ -245,7 +245,7 @@ def create_button(parent, text, command):
 
 
 # Загрузка Logo
-logo_image_path = os.path.join(os.path.dirname(__file__), f'{Project_Path}\BER_Content\BER_Logo.png')  # Убедитесь, что имя файла совпадает
+logo_image_path = os.path.join(os.path.dirname(__file__), rf'{Project_Path}\BER_Content\BER_Logo.png')  # Убедитесь, что имя файла совпадает
 logo_image = Image.open(logo_image_path)
 logo_photo = ImageTk.PhotoImage(logo_image)
 cat_label = tk.Label(root, image=logo_photo, bg="#4B0082")
@@ -311,7 +311,7 @@ btn_minimize.grid(row=0, column=2, padx=10)
 
 
 # Загрузка изображения котика
-cat_image_path = os.path.join(os.path.dirname(__file__), f'{Project_Path}\BER_Content\cat.png')  # Убедитесь, что имя файла совпадает
+cat_image_path = os.path.join(os.path.dirname(__file__), rf'{Project_Path}\BER_Content\cat.png')  # Убедитесь, что имя файла совпадает
 cat_image = Image.open(cat_image_path)
 cat_image = cat_image.resize((50, 50), Image.LANCZOS)  # Изменение размера изображения
 cat_photo = ImageTk.PhotoImage(cat_image)

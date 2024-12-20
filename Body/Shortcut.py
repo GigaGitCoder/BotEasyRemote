@@ -7,11 +7,8 @@ import win32com.client
 target_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Start.bat")  # Путь к вашему файлу
 icon_file = "BER_Content\\icon.ico"       # Путь к вашей иконке
 
-# Получаем путь к рабочему столу
-desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
-
 # Создаем имя ярлыка
-shortcut_name = os.path.join(desktop_path, "Bot Easy Remote.lnk")  # Ярлык будет называться Start.lnk
+shortcut_name = os.path.join(os.path.join(os.path.dirname(__file__), os.pardir), "Bot Easy Remote.lnk")  # Ярлык будет называться Start.lnk
 
 # Проверяем, существует ли ярлык
 if os.path.exists(shortcut_name):
@@ -20,7 +17,7 @@ if os.path.exists(shortcut_name):
     sys.exit()
 
 # Получаем путь к текущей папке
-current_dir = os.path.dirname(os.path.abspath(__file__))
+current_dir = os.path.dirname(os.path.join(os.path.dirname(__file__), os.pardir))
 
 # Создаем ярлык
 shell = win32com.client.Dispatch("WScript.Shell")

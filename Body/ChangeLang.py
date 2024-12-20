@@ -9,15 +9,9 @@ def lang_var():
 
 def start_bot():
     if language_var.get() == "ru":
-        # process = subprocess.Popen(['python', f'{Project_Path}/RemoteRU.py'])
-        # root.destroy()
-        # process.wait()
         sys.exit()
 
     elif language_var.get() == "en":
-        # process = subprocess.Popen(['python', f'{Project_Path}/RemoteEN.py'])
-        # root.destroy()
-        # process.wait()
         sys.exit()
 
 def create_button(parent, text, command):

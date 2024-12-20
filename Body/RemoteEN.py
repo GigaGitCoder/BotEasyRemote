@@ -38,7 +38,7 @@ def refresh_code_repair():
 
 # Path to the bot file
 def bot_main():
-    return open(f"{Project_Path}\path.txt", 'r', encoding='utf-8').read() 
+    return open(rf"{Project_Path}\path.txt", 'r', encoding='utf-8').read() 
 
 # Function to select a file
 def select_file():
@@ -50,7 +50,7 @@ def select_file():
 # Function to send the path to another file
 def send_path():
     bot_path = entry_bot_path.get()
-    open(f"{Project_Path}\path.txt", 'w', encoding='utf-8').write(bot_path)  # Write the path to the file
+    open(rf"{Project_Path}\path.txt", 'w', encoding='utf-8').write(bot_path)  # Write the path to the file
     print(f"\n\nThe path to the bot file is now: {bot_path}\nOverwritten in path.txt\n")
     # Here you can add code to send the path to another file
 
@@ -202,7 +202,7 @@ def update_button_states():
 def create_tray_icon():
     global tray_icon
     # Load the icon from a file
-    icon_path = os.path.join(os.path.dirname (__file__), f'{Project_Path}\BER_Content\icon.png')  
+    icon_path = os.path.join(os.path.dirname (__file__), rf'{Project_Path}\BER_Content\icon.png')  
     image = Image.open(icon_path)
     tray_icon = Icon("test_icon", image, "Bot Easy Remote", menu=pystray.Menu(
         MenuItem("Support", open_cat_link),
@@ -227,7 +227,7 @@ root.configure(bg="#4B0082")  # Dark purple background
 
 
 # Set the icon for the window
-icon_path = os.path.join(os.path.dirname(__file__), f'{Project_Path}\BER_Content\icon.png')  # Path to the icon
+icon_path = os.path.join(os.path.dirname(__file__), rf'{Project_Path}\BER_Content\icon.png')  # Path to the icon
 icon_image = Image.open(icon_path)
 icon_photo = ImageTk.PhotoImage(icon_image)
 root.iconphoto(False, icon_photo)
@@ -245,7 +245,7 @@ def create_button(parent, text, command):
 
 
 # Load Logo
-logo_image_path = os.path.join(os.path.dirname(__file__), f'{Project_Path}\BER_Content\BER_Logo.png')  # Ensure the file name matches
+logo_image_path = os.path.join(os.path.dirname(__file__), rf'{Project_Path}\BER_Content\BER_Logo.png')  # Ensure the file name matches
 logo_image = Image.open(logo_image_path)
 logo_photo = ImageTk.PhotoImage(logo_image)
 cat_label = tk.Label(root, image=logo_photo, bg="#4B0082")
@@ -311,7 +311,7 @@ btn_minimize.grid(row=0, column=2, padx=10)
 
 
 # Load cat image
-cat_image_path = os.path.join(os.path.dirname(__file__), f'{Project_Path}\BER_Content\cat.png')  # Ensure the file name matches
+cat_image_path = os.path.join(os.path.dirname(__file__), rf'{Project_Path}\BER_Content\cat.png')  # Ensure the file name matches
 cat_image = Image.open(cat_image_path)
 cat_image = cat_image.resize((50, 50), Image.LANCZOS)  # Resize the image
 cat_photo = ImageTk.PhotoImage(cat_image)
