@@ -1,67 +1,67 @@
 # Bot Easy Remote
 
-Bot Easy Remote - это приложение, разработанное на Python, которое позволяет пользователям управлять ботами через графический интерфейс. Приложение поддерживает выбор языка интерфейса (русский и английский) и предоставляет возможность запускать, перезапускать и останавливать ботов, а также выбирать файлы ботов для выполнения.
+Bot Easy Remote is an application developed in Python that allows users to manage bots through a graphical interface. The application supports language selection (Russian and English) and provides the ability to start, restart, and stop bots, as well as select bot files for execution.
 
-## Содержание
+## Contents
 
-- [Функции](#функции)
-- [Установка](#установка)
-- [Использование](#использование)
-- [Поддержка](#поддержка)
-- [Лицензия](#лицензия)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Support](#support)
+- [License](#license)
 
-## Функции
+## Features
 
-- Выбор языка интерфейса (русский и английский).
-- Запуск, перезапуск и остановка ботов.
-- Выбор файла бота для выполнения.
-- Системный трей для быстрого доступа к приложению.
-- Логирование действий в консоль.
+- Language selection for the interface (Russian and English).
+- Start, restart, and stop bots.
+- Select a bot file for execution.
+- System tray for quick access to the application.
+- Logging actions to the console.
 
-## Установка
+## Installation
 
-1. Убедитесь, что у вас установлен Python 3.6 или выше. Вы можете скачать его с [официального сайта Python](https://www.python.org/downloads/).
-2. Клонируйте репозиторий на свой компьютер:
+1. Make sure you have Python 3.6 or higher installed. You can download it from the [official Python website](https://www.python.org/downloads/).
+2. Clone the repository to your computer:
 
    ```bash
    git clone https://github.com/GigaGitCoder/BotEasyRemote.git
    ```
 
-3. Перейдите в директорию проекта:
+3. Navigate to the project directory:
 
    ```bash
    cd BotEasyRemote
    ```
 
-4. Установите необходимые зависимости:
+4. Install the required dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-## Использование
+## Usage
 
-1. Запустите приложение, используя файл `Start.bat`:
+1. Start the application using the `Start.bat` file:
 
    ```bash
    Start.bat
    ```
 
-2. Выберите язык интерфейса, используя файл `Change Language.bat`:
+2. Select the interface language using the `Change Language.bat` file:
 
    ```bash
    Change Language.bat
    ```
-   
-4. Укажите путь к файлу бота, который вы хотите запустить, и нажмите кнопку "Запустить бота".
-5. Используйте кнопки для перезапуска или остановки бота по мере необходимости.
 
-## Поддержка
+3. Specify the path to the bot file you want to run and click the "Start Bot" button.
+4. Use the buttons to restart or stop the bot as needed.
 
-Если у вас возникли вопросы или проблемы, вы можете задать их через Telegram: [@IgorXmel](https://t.me/IgorXmel). <br>
+## Support
+
+If you have any questions or issues, you can ask them via Telegram: [@IgorXmel](https://t.me/IgorXmel). <br>
 <br>
-Поддержать проект можно через [Donation Alerts](https://www.donationalerts.com/r/ava_channel_live) или нажав на котика в приложении.
+You can support the project through [Donation Alerts](https://www.donationalerts.com/r/ava_channel_live) or by clicking on the cat in the application.
 
-## Лицензия
+## License
 
-Этот проект лицензирован под MIT License. Пожалуйста, ознакомьтесь с файлом [LICENSE](LICENSE) для получения дополнительной информации.
+This project is licensed under the MIT License. Please refer to the [LICENSE](LICENSE) file for more information.
