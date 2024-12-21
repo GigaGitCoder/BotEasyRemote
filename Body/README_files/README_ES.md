@@ -66,4 +66,4 @@ Puedes apoyar el proyecto a través de [Donation Alerts](https://www.donationale
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Por favor, consulta el archivo [LICENSE](LICENSE) para obtener más información.
+Este proyecto está licenciado bajo la Licencia MIT. Por favor, consulta el archivo [LICENSE](../../LICENSE) para obtener más información.

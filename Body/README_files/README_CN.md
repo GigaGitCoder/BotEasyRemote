@@ -66,4 +66,4 @@ Bot Easy Remote 是一款用 Python 开发的应用程序，允许用户通过�
 
 ## 许可证
 
-该项目根据 MIT 许可证进行许可。有关更多信息，请查看 [LICENSE](LICENSE) 文件。
+该项目根据 MIT 许可证进行许可。有关更多信息，请查看 [LICENSE](../../LICENSE) 文件。

@@ -66,4 +66,4 @@ Vous pouvez soutenir le projet via [Donation Alerts](https://www.donationalerts.
 
 ## Licence
 
-Ce projet est sous licence MIT. Veuillez consulter le fichier [LICENSE](LICENSE) pour plus d'informations.
+Ce projet est sous licence MIT. Veuillez consulter le fichier [LICENSE](../../LICENSE) pour plus d'informations.
