@@ -66,4 +66,4 @@ Sie können das Projekt über [Donation Alerts](https://www.donationalerts.com/r
 
 ## Lizenz
 
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. Bitte lesen Sie die Datei [LICENSE](../../LICENSE) für weitere Informationen.
+Dieses Projekt ist unter der Apache-2.0-Lizenz lizenziert. Bitte beziehen Sie sich auf die [LICENSE](../../LICENSE)-Datei für weitere Informationen.

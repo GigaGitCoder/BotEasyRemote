@@ -76,4 +76,4 @@ You can support the project through [Donation Alerts](https://www.donationalerts
 
 ## License
 
-This project is licensed under the MIT License. Please refer to the [LICENSE](LICENSE) file for more information.
+This project is licensed under the Apache-2.0 License. Please refer to the [LICENSE](LICENSE) file for more information.

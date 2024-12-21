@@ -66,4 +66,4 @@ Você pode apoiar o projeto através do [Donation Alerts](https://www.donational
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Por favor, consulte o arquivo [LICENSE](../../LICENSE) para mais informações.
+Este projeto está licenciado sob a Licença Apache-2.0. Por favor, consulte o arquivo [LICENSE](../../LICENSE) para mais informações.
