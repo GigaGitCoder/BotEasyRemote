@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import messagebox
 import sys
 import os
 
@@ -37,12 +38,12 @@ def change_language():
         open(f"{Project_Path}\lang_var.txt", 'w', encoding='utf-8').write("en")
 
     else:
-        tk.messagebox.showerror("Choose language", "Not a single language has been selected.")
+        tk.messagebox.showinfo("Choose language", "Not a single language has been selected.")
 
 
 # Создание основного окна
 root = tk.Tk()
-root.title("Выбор языка BER")
+root.title("BER")
 root.geometry("300x150")  # Размер окна
 root.resizable(False, False)  # Запрет изменения размера окна
 root.configure(bg="#4B0082")
