@@ -11,3 +11,6 @@ if lang_var() == "ru":
 
 elif lang_var() == "en":
     subprocess.Popen(['python', r".\Body\RemoteEN.py"])
+
+else:
+    subprocess.Popen(['python', r".\Body\ChangeLang.py"])

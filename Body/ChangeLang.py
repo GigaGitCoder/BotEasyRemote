@@ -36,6 +36,9 @@ def change_language():
         radio_ru.config(bg="#380061", fg="white")
         open(f"{Project_Path}\lang_var.txt", 'w', encoding='utf-8').write("en")
 
+    else:
+        tk.messagebox.showerror("Choose language", "Not a single language has been selected.")
+
 
 # Создание основного окна
 root = tk.Tk()

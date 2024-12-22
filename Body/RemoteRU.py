@@ -260,7 +260,7 @@ btn_start = create_button(frame1, "Запустить бота", start_bot)
 btn_start.grid(row=0, column=0, padx=10)
 
 checkbox_var = tk.BooleanVar()
-checkbox = tk.Checkbutton(frame1, text="CodeFix (cmd)", variable=checkbox_var, 
+checkbox = tk.Checkbutton(frame1, text="CodeFix (NonColor)", variable=checkbox_var, 
                           command=refresh_code_repair, bg="#380061", font=("Arial", 12), 
                           fg="white", selectcolor="#380061", activebackground="#4B0082", 
                           activeforeground="white", relief="sunken")
